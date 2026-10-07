@@ -55,7 +55,7 @@ Microservicio encargado de la gestión logística, seguimiento y procesamiento d
 
 ```bash
 mvn clean package -DskipTests
-```[cite: 4]
+```
 
 ### Despliegue con Docker
 
@@ -63,7 +63,7 @@ mvn clean package -DskipTests
 
 ```bash
 docker build -t pedidos360/ms-despacho:v1 .
-```[cite: 4]
+```
 
 2. **Ejecutar contenedor:**
 
@@ -81,10 +81,10 @@ docker run -d \
   -e MAIL_USERNAME="tu_usuario_mailtrap" \
   -e MAIL_PASSWORD="tu_password_mailtrap" \
   pedidos360/ms-despacho:v1
-```[cite: 4]
+```
 
 ---
-```
+
 ## 🔗 Ecosistema de Repositorios
 
 ### Backend
