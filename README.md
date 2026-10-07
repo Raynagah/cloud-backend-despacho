@@ -1,6 +1,6 @@
 # Pedidos360 - Microservicio de Despachos (`ms-despacho`)
 
-Microservicio encargado de la gestión logística, seguimiento y procesamiento de los envíos de pedidos para la plataforma **Pedidos360**[cite: 4]. Escucha de forma asíncrona los eventos de creación de órdenes generados por `ms-ordenes` para iniciar el ciclo de despacho y enviar confirmaciones por correo electrónico.
+Microservicio encargado de la gestión logística, seguimiento y procesamiento de los envíos de pedidos para la plataforma **Pedidos360**. Escucha de forma asíncrona los eventos de creación de órdenes generados por `ms-ordenes` para iniciar el ciclo de despacho y enviar confirmaciones por correo electrónico.
 
 ## 🛠️ Tecnologías Utilizadas
 
