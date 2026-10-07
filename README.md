@@ -4,32 +4,32 @@ Microservicio encargado de la gestión logística, seguimiento y procesamiento d
 
 ## 🛠️ Tecnologías Utilizadas
 
-* **Lenguaje:** Java 17[cite: 4]
-* **Framework:** Spring Boot 3.2.x[cite: 4]
+* **Lenguaje:** Java 17
+* **Framework:** Spring Boot 3.2.x
 * **Mensajería:** Spring AMQP / RabbitMQ (Consumidor con ACK Manual)
 * **Envío de Correo:** JavaMailSender / Mailtrap
-* **Persistencia:** Spring Data JPA / PostgreSQL (`db_despachos`)[cite: 4]
-* **Seguridad:** OAuth2 Resource Server (Validación JWT con Azure AD)[cite: 4]
-* **Contenedorización:** Docker[cite: 4]
+* **Persistencia:** Spring Data JPA / PostgreSQL (`db_despachos`)
+* **Seguridad:** OAuth2 Resource Server (Validación JWT con Azure AD)
+* **Contenedorización:** Docker
 
 ## ⚙️ Instalación y Ejecución
 
 ### Requisitos Previos
 
-* JDK 17[cite: 4]
-* Maven 3.8+[cite: 4]
+* JDK 17
+* Maven 3.8+
 * RabbitMQ Server
-* PostgreSQL (Base de datos `db_despachos`)[cite: 4]
-* Docker[cite: 4]
+* PostgreSQL (Base de datos `db_despachos`)
+* Docker
 
 ### Variables de Entorno
 
 | Variable | Valor por Defecto / Descripción |
 | :--- | :--- |
-| `AZURE_TENANT_ID` | `78b145ef-56b9-4397-b87c-27b242a9fce5`[cite: 4] |
-| `SPRING_DATASOURCE_URL` | `jdbc:postgresql://<HOST_BD>:5432/db_despachos`[cite: 4] |
-| `SPRING_DATASOURCE_USERNAME` | Credencial de base de datos[cite: 4] |
-| `SPRING_DATASOURCE_PASSWORD` | Credencial de base de datos[cite: 4] |
+| `AZURE_TENANT_ID` | `78b145ef-56b9-4397-b87c-27b242a9fce5` |
+| `SPRING_DATASOURCE_URL` | `jdbc:postgresql://<HOST_BD>:5432/db_despachos` |
+| `SPRING_DATASOURCE_USERNAME` | Credencial de base de datos |
+| `SPRING_DATASOURCE_PASSWORD` | Credencial de base de datos |
 | `RABBITMQ_HOST` | Host del servidor RabbitMQ (`localhost`) |
 | `RABBITMQ_USER` | Usuario de RabbitMQ (`admin`) |
 | `RABBITMQ_PASSWORD` | Contraseña de RabbitMQ (`admin`) |
@@ -91,13 +91,13 @@ docker run -d \
 
 * [Microservicio Despacho (Este repositorio)](https://github.com/Raynagah/cloud-backend-despacho)
 * [Microservicio Órdenes](https://github.com/Raynagah/cloud-backend-ordenes)
-* [Microservicio Notificaciones](https://github.com/Raynagah/cloud-backend-notificaciones)[cite: 4]
-* [Microservicio Producto](https://github.com/Raynagah/cloud-backend-producto)[cite: 4]
-* [BFF Orchestrator](https://github.com/Raynagah/cloud-backend-bff)[cite: 4]
-* [Microservicio Carrito](https://github.com/Raynagah/cloud-backend-carrito)[cite: 4]
-* [Microservicio Usuarios](https://github.com/NBello26/ms-usuarios-cloud.git)[cite: 4]
-* [Microservicio Base de Datos](https://github.com/NBello26/ms-bd-cloud)[cite: 4]
+* [Microservicio Notificaciones](https://github.com/Raynagah/cloud-backend-notificaciones)
+* [Microservicio Producto](https://github.com/Raynagah/cloud-backend-producto)
+* [BFF Orchestrator](https://github.com/Raynagah/cloud-backend-bff)
+* [Microservicio Carrito](https://github.com/Raynagah/cloud-backend-carrito)
+* [Microservicio Usuarios](https://github.com/NBello26/ms-usuarios-cloud.git)
+* [Microservicio Base de Datos](https://github.com/NBello26/ms-bd-cloud)
 
 ### Frontend
 
-* [Frontend React](https://github.com/Raynagah/cloud-frontend.git)[cite: 4]
+* [Frontend React](https://github.com/Raynagah/cloud-frontend.git)
